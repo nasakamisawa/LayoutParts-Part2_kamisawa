@@ -60,7 +60,7 @@
 }
 .active-red:active,.active-blue:active,.active-green:active {
   transform: translateY(5px);
-  box-shadow: 0 0 0 rgba(0, 0, 0, 0.1);
+  box-shadow: none;
 }
 .double {
   color: #67c5ff;
