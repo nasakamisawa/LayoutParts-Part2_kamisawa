@@ -3,21 +3,14 @@
   height: 500px;
 }
 .background-img {
-  background-image: url(../image/coffee-background.jpg);
+  background: url(../image/coffee-background.jpg);
 }
 .background-repeat {
-  background-image: url(../image/coffee-background.jpg);
-  background-repeat: no-repeat;
+  background: url(../image/coffee-background.jpg) no-repeat;
 }
 .background-cover {
-  background-image: url(../image/coffee-background.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background: url(../image/coffee-background.jpg) no-repeat center/cover;
 }
 .background-contain {
-  background-image: url(../image/coffee-background.jpg);
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
+  background: url(../image/coffee-background.jpg) no-repeat  center/contain;
 }
